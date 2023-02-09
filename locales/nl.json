@@ -1,0 +1,6 @@
+{
+    "hello": "Hallo",
+    "welcome": "Welkom bij Meteor!",
+    "title": "Gelukt!",
+    "description": "Je hebt succesvol een nieuw project met\n<a target=\"_blank\" href=\"{viteRef}\">Vite</a> +\n<a target=\"_blank\" href=\"{vueRef}\">Vue 3</a> aangemaakt."
+}

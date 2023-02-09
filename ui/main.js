@@ -4,7 +4,7 @@ import { VueMeteor } from 'vue-meteor-tracker'
 import App from './App.vue'
 import { router } from './router'
 import {createI18n} from "vue-i18n";
-import messages from '@intlify/vite-plugin-vue-i18n/messages'
+import messages from "@intlify/unplugin-vue-i18n/messages";
 
 const userLocale = navigator.languages && navigator.languages.length ? navigator.languages[0] : navigator.language;
 
@@ -15,6 +15,7 @@ const i18n = createI18n({
   globalInjection: true,
   missingWarn: false,
   fallbackWarn: false,
+  availableLocales: ['en','nl'],
   messages
 })
 
